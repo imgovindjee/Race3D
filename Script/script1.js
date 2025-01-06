@@ -6,28 +6,28 @@ const ASSETS = {
     },
     IMAGE: {
         TREE: {
-            src: "/assets/Images/tree.png",
+            src: "assets/Images/tree.png",
             width: 132,
             height: 192,
         },
         HERO: {
-            src: "/assets/Images/hero.png",
+            src: "assets/Images/hero.png",
             width: 110,
             height: 56,
         },
         CAR: {
-            src: "/assets/Images/car04.png",
+            src: "assets/Images/car04.png",
             width: 50,
             height: 36,
         },
         FINISH: {
-            src: "/assets/Images/finish.png",
+            src: "assets/Images/finish.png",
             width: 339,
             height: 180,
             offset: -0.5,
         },
         SKY: {
-            src: "/assets/Images/cloud.jpg",
+            src: "assets/Images/cloud.jpg",
         },
     },
     AUDIO: {
