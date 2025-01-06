@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race3D</title>
+
+    <!-- ICON -->
+    <link rel="icon" href="/assets/icon.png">
+    <!-- <link rel="icon" href="/assets/1icon.png"> -->
+
+
+    <!-- FONT STYLE -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P" />
+
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="/Style/style.css">
+
+    <!-- JAVASCRIPT -->
+    <script>
+        window.console == window.console || function (t) { };
+    </script>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*")
+        }
+    </script>
+</head>
+
+
+<!-- BODY -->
+
+<body translate="no">
+
+    <div id="game">
+        <div id="road">
+            <div id="cloud"></div>
+            <div id="hero"></div>
+        </div>
+
+
+        <div id="hud">
+            <span id="time" class="topUI">0</span>
+            <span id="score" class="topUI">0</span>
+            <span id="lap" class="topUI">0'00''000</span>
+            <span id="tacho">0</span>
+        </div>
+
+        <div id="home">
+            <h1>Race3D</h1>
+            <p id="text"></p>
+            <div id="highscore"></div>
+        </div>
+    </div>
+
+
+    <div id="controls">
+        <span>
+            <span>C</span>
+            Insert Coin
+        </span>
+        <span>
+            <span>M</span>
+            Mute
+        </span>
+        <span>
+            <span>&lt;</span>
+            <span>&gt;</span>
+            Move
+        </span>
+        <span>
+            <span>&lt;</span>
+            <span>&gt;</span>
+            Accelerate
+        </span>
+    </div>
+
+</body>
+
+<!-- JAVASCRIPT -->
+<script src="/Script/script2.js"></script>
+<script id="rendered-js" src="/Script/script1.js"></script>
+<script src="/Script/script3.js"></script>
+
+</html>
